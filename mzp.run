@@ -1,0 +1,10 @@
+name "MaxJack"
+version 1.0
+
+treeMove "MaxJack" to "$userscripts"
+move "icons\\*.bmp" to "$usericons"
+move "Macro_MaxJack.mcr" to $usermacros
+
+run "$usermacros\\Macro_MaxJack.mcr"
+
+clear temp
