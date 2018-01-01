@@ -1,10 +1,11 @@
 name "MaxJack"
-version 1.0
+version 1.01
 
-treeMove "MaxJack" to "$userscripts"
-move "icons\\*.bmp" to "$usericons"
-move "Macro_MaxJack.mcr" to $usermacros
+treeMove MaxJack to $userscripts
+move "icons\\*.bmp" to $usericons
+move Macro_MaxJack.mcr to $usermacros
 
-run "$usermacros\\Macro_MaxJack.mcr"
+run InstallFinished.ms
+drop InstallFinished.ms
 
 clear temp
